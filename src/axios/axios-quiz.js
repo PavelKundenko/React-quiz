@@ -1,5 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'https://react-quiz-project.firebaseio.com/'
-})
+	baseURL: 'https://react-quiz-project.firebaseio.com/',
+});
+
