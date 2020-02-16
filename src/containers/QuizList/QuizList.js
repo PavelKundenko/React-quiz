@@ -31,7 +31,7 @@ class QuizList extends Component {
 				<div>
 					<h1>Список тестов</h1>
 					{
-						this.props.loading && this.props.quizes.length !== 0
+						this.props.loading
 							? <Loader/>
 							: <ul>{this.renderQuizes()}</ul>
 					}
